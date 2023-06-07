@@ -11,6 +11,7 @@
 		BEF08BA22A30914400F26FD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF08BA12A30914400F26FD1 /* ContentView.swift */; };
 		BEF08BA42A30914700F26FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF08BA32A30914700F26FD1 /* Assets.xcassets */; };
 		BEF08BA82A30914700F26FD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF08BA72A30914700F26FD1 /* Preview Assets.xcassets */; };
+		BEF08BAF2A3096A800F26FD1 /* SundelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF08BAE2A3096A800F26FD1 /* SundelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BEF08BA32A30914700F26FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF08BA52A30914700F26FD1 /* TabbedScrollView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TabbedScrollView.entitlements; sourceTree = "<group>"; };
 		BEF08BA72A30914700F26FD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEF08BAE2A3096A800F26FD1 /* SundelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BEF08B9F2A30914400F26FD1 /* TabbedScrollViewApp.swift */,
 				BEF08BA12A30914400F26FD1 /* ContentView.swift */,
+				BEF08BAE2A3096A800F26FD1 /* SundelView.swift */,
 				BEF08BA32A30914700F26FD1 /* Assets.xcassets */,
 				BEF08BA52A30914700F26FD1 /* TabbedScrollView.entitlements */,
 				BEF08BA62A30914700F26FD1 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF08BAF2A3096A800F26FD1 /* SundelView.swift in Sources */,
 				BEF08BA22A30914400F26FD1 /* ContentView.swift in Sources */,
 				BEF08BA02A30914400F26FD1 /* TabbedScrollViewApp.swift in Sources */,
 			);
@@ -279,7 +283,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -317,7 +321,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
